@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>AI Resume Analyzer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- PDF.js Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Resume Analyzer</h1>
+
+<p>Upload your resume (PDF) to get AI suggestions</p>
+
+<input type="file" id="resumeUpload" accept=".pdf">
+
+<button onclick="analyzeResume()">Analyze Resume</button>
+
+<div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
